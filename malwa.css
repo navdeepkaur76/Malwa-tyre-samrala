@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Libertinus+Math&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f2f3d9;
+  color: #030027;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  color: #f2f3d9;
+  background-color: #151e3f;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 23px;
+  list-style: none;
+}
+nav ul li a {
+  color: #f2f3d9;
+}
+nav ul li a:hover {
+  color: #c16e70;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0;
+  align-items: center;
+  margin: 130px;
+}
+.firstsection > div {
+  width: 40%;
+}
+.leftsection {
+  font-size: 3rem;
+}
+.rightsection {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+}
+.best {
+  color: #c82525;
+}
+#element {
+  color: #c82525;
+}
+main hr {
+  border: 0;
+  height: 1.2px;
+  margin: 60px 84px;
+  background-color: #151e3f;
+}
+.small {
+  color: #450920;
+}
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
+}
+.secondsection h1 {
+  font-size: 1.9rem;
+}
+.secondsection .box {
+  background-color: #151e3f;
+  width: 77vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.heading {
+  max-width: 80vw;
+  margin: auto;
+}
+.count {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 30px;
+  border: 3px solid #151e3f;
+  border-radius: 2.5px;
+}
+.count a{
+  background-color: #f2f3d9;
+  color: #b22222;
+}
+.count .one {
+  border: 2px solid#151e3f;
+   height: 40px;
+   padding: 5px;
+   margin: 5px;
+}
+.count .two {
+  border: 2px solid#151e3f;
+   height: 40px;
+   padding: 5px;
+   margin: 5px;
+}
+.count .three {
+  border: 2px solid#151e3f;
+   height: 40px;
+   padding: 5px;
+   margin: 5px;
+}
+.count .four {
+  border: 2px solid#151e3f;
+height: 40px;
+   padding: 5px;
+   margin: 5px;
+  }
+.count .five {
+  border: 2px solid#151e3f;
+  height: 40px;
+   padding: 5px;
+   margin: 5px;
+}
+.count .six {
+  border: 2px solid#151e3f;
+   height: 40px;
+   padding: 5px;
+   margin: 5px;
+}
+.count .seven {
+  border: 2px solid#151e3f;
+height: 40px;
+   padding: 5px;
+   margin: 5px;
+}
+.count2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 10px;
+  border: 3px solid #151e3f;
+  border-radius: 2.5px;
+  margin-top: 9px;
+}
+.count2 a{
+  background-color: #f2f3d9;
+  color: #b22222;
+}
+.count2 .eight {
+  border: 2px solid#151e3f;
+height: 40px;
+   padding: 5px;
+   margin: 5px;
+}
+.count2 .nine {
+  border: 2px solid#151e3f;
+height: 40px;
+   padding: 5px;
+   margin: 5px;
+}
+.count2 .ten {
+  border: 2px solid#151e3f;
+height: 40px;
+   padding: 5px;
+   margin: 5px;
+}
+.count2 .eleven {
+  border: 2px solid#151e3f;
+ height: 40px;
+   padding: 5px;
+   margin: 5px;
+}
+.count2 .twelve {
+  border: 2px solid#151e3f;
+   height: 40px;
+   padding: 5px;
+   margin: 5px;
+}
+.count2 .thirteen {
+  border: 2px solid#151e3f;
+   height: 40px;
+   padding: 5px;
+   margin: 5px;
+}
+.count2 .fourteen {
+  border: 2px solid#151e3f;
+  height: 40px;
+   padding: 5px;
+   margin: 5px;
+}
+.anothersection {
+  max-width: 80vw;
+  margin: auto;
+}
+.anothersection h3 {
+  font-size: 1.9rem;
+}
+.anothersection h5{
+  font-size: 1rem;
+}
+.anothersection .box {
+  background-color: #151e3f;
+  width: 77vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.images {
+  display: flex;
+  width: 90vw;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 13px;
+}
+.images .img img{
+  height: 300px;
+  width: 300px;
+  border: 1px solid#151e3f;
+}
+footer{
+  background-color:#151e3f ;
+  color: #f2f3d9;
+}
+.footer{
+  display: flex;
+  padding: 20px 120px;
+  justify-content: space-evenly;
+}
+.footer>div{
+  width: 223px;
+}
+footer .footer-rights{
+  text-align: center;
+  color:#aeaf97 ;
+  padding: 12px 0;
+}
+footer .secondfooter ul li{
+  list-style: none;
+}
